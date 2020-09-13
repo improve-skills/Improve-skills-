@@ -1,0 +1,563 @@
+*
+{margin:0px;
+padding:0px;
+box-sizing: border-box;
+}
+img{width:100%}
+#mainlogo{width:100px;}
+
+/*nav css start*/
+#nav{
+	border-bottom:2px solid green;
+	padding-top:18px;
+	background:#f8f9fa;
+	
+	}
+#navigation_bar{
+	padding:15px 0px;
+	
+	}	
+
+
+#mynav li a{
+	padding:10px 15px;
+	font-weight:bold;
+	font-family:arial;
+	color:#888;
+	}
+#mynav li a:hover{color:red;}
+
+#submenulist{
+	width:250px;
+	left:20px;
+	
+	}	
+
+	
+#mynav #submenulist a{
+	padding:10px 0px;
+	padding-left:10px;
+	}
+#mynav #submenulist li a:hover {
+	
+	}
+	
+#submenulist_li{
+	width:250px;
+	left:240px;
+	
+	
+}	
+	
+
+
+/*nav css end*/
+
+
+/*slider css start*/
+.carousel-inner img{
+	
+	opacity:0.9;
+	
+	}
+	
+#slider_content{
+	padding-bottom:200px;
+	}
+#slider_content h2{
+	color:red;
+	font-weight:bold;
+	font-size:40px;
+	font-family:Arial Black;
+	margin-bottom:10px;
+	text-shadow:1px -1px 0 #f1f1f1;
+	
+	}
+#slider_content p{
+	color:green;
+	font-size:18px;
+	font-family:Arial Black;
+	text-transform:uppercase;
+	text-shadow:1px -1px 0 #f1f1f1; 2px 1px 0 #fefefe;
+	
+	}	
+	
+	
+/*slider css end*/	
+
+/*about section css start*/
+#sectionTitle{
+	font-weight:bold;
+	width:300px;
+	text-align:center;
+	padding:20px 0px;
+	margin:auto;
+	padding-bottom:50px;
+	
+	}
+	
+#sectionTitle h2{
+	border-bottom:3px solid red;
+	padding-bottom:5px;
+	color:#006837;
+	font-weight:bold;
+	font-family:Arial Black;
+}
+#myabout_section{
+	padding-top:60px;
+	padding-left:50px;
+	}
+	
+section{
+	padding:50px;
+	
+	}	
+
+#aboutimg{
+	width:354px;
+	height:249px;
+	border:2px solid #e5e5e5;
+	border-radius:3px;
+	
+	}
+	
+
+
+#aboutContent{
+	border:2px solid #e5e5e5;
+	border-radius:3px;
+	
+	padding:10px;
+	
+	}
+	
+#aboutContent p{
+	padding-top:10px;
+	margin:25px;
+	margin-top:0px;
+	color:#006837;
+	
+	
+	}
+#aboutContent h4{
+	color:red;
+	margin-left:25px;
+	margin-top:15px;
+	}
+
+
+/*about section css end*/
+
+/*COURSE SECTION css START*/
+
+#mycourse_section{
+	margin-top:40px;
+	background:#f1f1f1;
+	padding-left:38px;
+	
+	
+	}
+#courseTitle{
+	font-weight:bold;
+	width:300px;
+	text-align:center;
+	padding:20px 0px;
+	margin:auto;
+	padding-bottom:50px;
+	padding-left:18px;
+	}
+#courseTitle h2{
+	border-bottom:3px solid red;
+	padding-bottom:5px;
+	color:#006837;
+	font-weight:bold;
+	font-family:Arial Black;
+	}
+#courseTitle h2 span{
+	color:red;
+}	
+#totalcourse{
+	width:350px;
+	border:1px solid white;
+	border-radius:10px;
+	margin:15px;
+	padding:15px;
+	background:#e2e2e2;
+	
+	}
+#totalcourse:hover{
+	background:#006837;
+	border:1px solid white;
+	color:white;
+	cursor:pointer;
+	transform:rotateY(360deg);
+	transition:all 1s;
+	
+	
+}	
+	
+	
+.myicon i{
+	font-size:25px;
+	margin-top:15px;
+	
+}
+	
+.myicon{
+	text-align:center;	
+	border:2px solid white;
+	border-radius:100px;
+	width:60px;
+	height:60px;
+	margin:auto;
+	margin-bottom:15px;
+	background:#3c3c3c;
+	color:white;
+	margin-top:20px;
+	
+	}	
+.myicon:hover{
+	background:white;
+	color:#006837;
+	border:2px solid #e2e2e2;
+	
+	
+	}	
+	
+	
+#coursedtl_titel h4 {
+	text-align:center;
+	font-family:Arial;
+	font-size:18px;
+	padding:10px;
+	font-weight:bold;
+	
+	
+	}	
+	
+#courseDtl #course_dec p{
+	text-align:center;
+	font-family:Arial;
+	color:#444;
+	padding-bottom:15px;
+	
+}
+
+#courseDtl #course_dec p:hover{
+	color:white;
+	transition:all 1s;
+	}
+
+#course_dec a.btn {
+	margin-left:33px;
+	margin-bottom:25px;
+	background:#f1f1f1;
+	color:red;
+	border:1px solid white;
+	}	
+#course_dec .btn{
+	background:#f1f1f1;
+	margin-left:33px;
+	margin-bottom:25px;
+	color:#006837;
+	border:1px solid white;
+	
+}	
+#course_dec .btn:hover{
+	background:red;
+	color:white;
+	border:1px solid #e2e2e2;
+}	
+#course_dec a.btn:hover{
+	background:red;
+	color:white;
+	border:1px solid #e2e2e2;
+	
+}
+/*course section css end*/
+
+/*service section start*/
+#services_section{
+	background:white;
+	padding-left:38px;
+	
+}
+#serviceTitle{
+	font-weight:bold;
+	width:300px;
+	text-align:center;
+	padding:20px 0px;
+	margin:auto;
+	padding-bottom:50px;
+	padding-left:18px;
+	
+}
+#serviceTitle h2{
+	border-bottom:3px solid red;
+	padding-bottom:5px;
+	color:#006837;
+	font-weight:bold;
+	font-family:Arial Black;
+	}
+#serviceTitle h2 span{
+	color:red;
+}
+
+#totalservices{
+	width:350px;
+	/*border:1px solid #ffc107;*/
+	border-radius:10px;
+	margin:15px;
+	padding:15px;
+	background:white;
+	
+	}
+#totalservices:hover{
+	background:#e2e2e2;
+	border:1px solid white;
+	
+	cursor:pointer;
+	transform:translateY(-15px);
+	transition:all 1s;
+}
+
+#servicesDtl #servicesdtl_titel h4 {
+	text-align:center;
+	font-family:Arial;
+	font-size:18px;
+	padding:15px;
+	font-weight:bold;
+	margin-top:-15px;
+	padding-bottom:5px;
+	color:#006837;
+	}	
+#totalservices #servicesDtl #servicesdtl_titel h4:hover{
+	
+}	
+	
+#servicesDtl #services_dec p{
+	text-align:center;
+	font-family:Arial;
+	font-size:14px;
+	color:#006837;
+	padding-bottom:5px;
+	
+}
+
+#servicesDtl #services_dec p:hover{
+	
+	transition:all 2s;
+	}
+
+
+#services_dec .btn{
+	background:#006837;
+	margin-left:32%;
+	margin-bottom:15px;
+	color:white;
+	border:1px solid #e2e2e2;
+	
+}	
+#services_dec .btn:hover{
+	background:red;
+	color:white;
+	border:1px solid #e2e2e2;
+}	
+
+.serviceicon{
+	text-align:center;	
+	border:1px solid #e2e2e2;
+	border-radius:100px;
+	width:60px;
+	height:60px;
+	margin:auto;
+	margin-bottom:15px;
+	background:#006837;
+	color:white;
+	margin-top:15px;
+	
+}
+.serviceicon i{
+	font-size:25px;
+    margin-top:15px;
+}
+.serviceicon:hover{
+	background:white;
+	color:#006837;
+	border:2px solid #888;
+	}
+/*service section end*/
+
+/* join section start*/
+#joinus_section{
+	text-align:center;
+	padding-left:50px;
+}
+#joinus_Title{
+	font-family:Arial black;
+	margin:auto;
+	padding-top:20px;
+	padding-bottom:5px;
+	border-bottom:5px solid red;
+	color:#006837;
+	
+	
+}
+.totalJoin{
+	width:300px;
+	padding-top:50px;
+	padding-bottom:50px;
+	padding-left:30px;
+}
+#join_icon{
+	font-size:40px;
+	color:#006837;
+	text-align:center;
+}
+#joinTitle{
+	font-family:Arial black;
+	font-size:20px;
+	text-align:center;
+	
+}
+#joinTitle a{
+	color:red;
+	text-decoration:none;
+}
+/* join section end*/
+
+/*subscribe_section start*/
+#subscribe_section {
+	height:455px;
+	background:
+	linear-gradient(#00000075,#00000075),
+    linear-gradient(#00000075,#00000075),	
+	url(image/sub.jpg);
+	color:white;
+	font-family:Arial black;
+	font-size:30px;
+	text-align:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-left:50px;
+	
+}
+#subscribe_section #subscribeTitle h2{
+	margin-top:80px;
+	padding-bottom:15px;
+}
+#subscribedec{
+	font-size:20px;
+	font-family:arial;
+}
+#subscribeform{
+	font-size:17px;
+	margin-top:10px;
+	padding-right:13px;
+}
+
+#subscribeform input{
+	width:250px;
+	border:1px solid #888;
+	border-radius:5px;
+	margin-bottom:10px;
+	font-family:Arial;
+	text-align:center;
+}
+
+#subscribeform .btn{
+	margin-top:15px;
+	background:red;
+	border:1px solid #888;
+	margin:auto;
+	font-size:15px;
+}
+#subscribeform .btn:hover{
+	background:white;
+	border:1px solid #888;
+	color:#006837;
+	}
+
+/*subscribe_section end*/
+
+/*footer section start*/
+
+#footer{
+	background:#006837;
+	color:white;
+	
+}
+#footer h4{
+	padding-bottom:15px;
+	
+}
+#contactdec{
+	padding-left:15px
+}
+
+#contactdec h4{
+	font-family:Arial black;
+	
+}
+#contact_no h6 span{
+	font-size:20px;
+	font-family:Arial black;
+	color:white;
+}
+#contact_location h6{
+	font-size:15px;
+	font-family:Arial black;
+	color:white
+}
+#contact_no{
+	color:#b1b1b1;
+}
+
+#conversation{
+	
+	text-align:center;
+	font-family:Arial black;
+	padding-top:20px;
+}
+#conversation i{
+	font-size:30px;
+	padding:0px 10px;
+	color:white;
+	text-decoration:none;
+}
+#we-do{
+	border-top:3px solid white;
+	margin-top:20px;
+	
+}
+
+#we-do h4{
+	
+	font-family:Arial black;
+	padding-top:40px;
+	
+}
+#we_dolink a{
+	color:white;
+	text-decoration:none;
+	font-family:Arial;
+	font-size:14px;
+}
+
+#copyRight{
+	height:20px;
+	background:#444;
+	color:white;
+	
+}
+#copyRight h6{
+	font-family:arial;
+	margin:auto;
+}
+#copyRight span{
+	margin:auto;
+}
+
+
+
+
